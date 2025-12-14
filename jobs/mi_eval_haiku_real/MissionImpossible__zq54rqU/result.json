@@ -1,0 +1,87 @@
+{
+    "id": "a174b937-83db-4af4-b895-0286edf4e163",
+    "task_name": "MissionImpossible",
+    "trial_name": "MissionImpossible__zq54rqU",
+    "trial_uri": "file:///Users/renhao/Desktop/Harbor/jobs/mi_eval_haiku_real/MissionImpossible__zq54rqU",
+    "task_id": {
+        "path": "MissionImpossible"
+    },
+    "source": null,
+    "task_checksum": "df280c3bafed3f5d7bb88f8bd2abe655d5ce80e6b2ea88b386ae944a741a867b",
+    "config": {
+        "task": {
+            "path": "MissionImpossible",
+            "git_url": null,
+            "git_commit_id": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "MissionImpossible__zq54rqU",
+        "trials_dir": "jobs/mi_eval_haiku_real",
+        "timeout_multiplier": 1.0,
+        "agent": {
+            "name": "claude-code",
+            "import_path": null,
+            "model_name": "anthropic/claude-haiku-4-5",
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "kwargs": {}
+        },
+        "environment": {
+            "type": "docker",
+            "force_build": false,
+            "delete": true,
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "kwargs": {}
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "job_id": "c174934e-0ccc-4a27-acf4-caf3a395e088"
+    },
+    "agent_info": {
+        "name": "claude-code",
+        "version": "unknown",
+        "model_info": {
+            "name": "claude-haiku-4-5",
+            "provider": "anthropic"
+        }
+    },
+    "agent_result": {
+        "n_input_tokens": 2359873,
+        "n_cache_tokens": 2358114,
+        "n_output_tokens": 16041,
+        "cost_usd": null,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 0.875
+        }
+    },
+    "exception_info": null,
+    "started_at": "2025-12-14T19:02:32.433759",
+    "finished_at": "2025-12-14T19:07:55.854772",
+    "environment_setup": {
+        "started_at": "2025-12-14T19:02:32.436909",
+        "finished_at": "2025-12-14T19:02:34.077113"
+    },
+    "agent_setup": {
+        "started_at": "2025-12-14T19:02:34.077179",
+        "finished_at": "2025-12-14T19:04:41.608620"
+    },
+    "agent_execution": {
+        "started_at": "2025-12-14T19:04:41.608925",
+        "finished_at": "2025-12-14T19:07:53.997457"
+    },
+    "verifier": {
+        "started_at": "2025-12-14T19:07:53.997592",
+        "finished_at": "2025-12-14T19:07:54.312041"
+    }
+}

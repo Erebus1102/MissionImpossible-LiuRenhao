@@ -1,0 +1,29 @@
+{
+    "id": "c174934e-0ccc-4a27-acf4-caf3a395e088",
+    "started_at": "2025-12-14T19:02:32.432171",
+    "finished_at": "2025-12-14T19:07:55.859542",
+    "n_total_trials": 1,
+    "stats": {
+        "n_trials": 1,
+        "n_errors": 0,
+        "evals": {
+            "claude-code__claude-haiku-4-5__adhoc": {
+                "n_trials": 1,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 0.875
+                    }
+                ],
+                "reward_stats": {
+                    "reward": {
+                        "0.875": [
+                            "MissionImpossible__zq54rqU"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        }
+    }
+}

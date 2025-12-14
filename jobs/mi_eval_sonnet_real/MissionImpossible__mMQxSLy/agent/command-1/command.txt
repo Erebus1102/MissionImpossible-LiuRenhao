@@ -1,0 +1,43 @@
+claude --verbose --output-format stream-json -p '## Mission Impossible
+
+你在容器中的工作目录是 `/app`，里面有一个小型 Python 项目 `mi_gitignore/`。
+
+### 任务目标
+
+修复并完善 `mi_gitignore/gitignore.py`，实现一个 **接近 `.gitignore` 语义** 的路径匹配器，使 `tests/` 中的所有测试用例通过（得分越高表示通过用例越多）。
+
+你需要实现/修复的行为（测试会覆盖）：
+
+1. **注释与空行**：以 `#` 开头的是注释；空行忽略；支持 `\#` 表示字面量 `#`。
+2. **否定规则**：以 `!` 开头的规则表示“取消忽略”（unignore）；支持 `\!` 表示字面量 `!`。
+3. **目录规则**：以 `/` 结尾的 pattern 只匹配目录（例如 `build/`）。
+4. **根路径锚定**：以 `/` 开头的 pattern 只从仓库根目录匹配（例如 `/dist/` 仅匹配根下 dist）。
+5. **无 `/` 的 pattern**：如果 pattern 不包含 `/`，它可以匹配任意层级的 basename（例如 `*.log` 应匹配 `a.log`、`x/y/z.log`）。
+6. **带 `/` 但不以 `/` 开头的 pattern**：应能在任意层级匹配（可理解为隐式带有 `**/` 前缀）。例如 `docs/*.md` 应匹配 `docs/a.md` 与 `a/b/docs/a.md`。
+7. **通配符**：
+   - `*` 匹配任意非 `/` 字符序列
+   - `?` 匹配单个非 `/` 字符
+   - `**` 匹配跨目录的任意字符序列（可包含 `/`），并且需要支持“零段或多段”的匹配（例如 `**/temp/*.txt` 必须匹配 `temp/a.txt` 与 `a/b/temp/a.txt`）
+8. **更贴近真实 git 的 unignore 语义**：如果某个目录被忽略，仅靠 `!dir/file` 不能让文件重新生效；需要先写 `!dir/` 再写 `!dir/file`。
+9. **优先级**：与 `.gitignore` 一致，**后出现的规则覆盖前面的规则**（包括否定规则）。
+
+### 交付要求
+
+- 只需要修改项目代码（建议只改 `mi_gitignore/gitignore.py`），**不要修改 `/tests` 下的测试用例**。
+- 你可以在容器内运行 pytest 自测（推荐小步迭代）：
+
+```bash
+cd /app
+pytest -q
+```
+
+#### 提示（减少踩坑）
+
+- `.gitignore` 是 **last-match-wins**：同一路径可能被多条规则匹配，最终以最后一条匹配规则决定 ignore/unignore。
+- 目录规则（如 `build/`）除了匹配目录本身，还应当影响其下的所有内容（例如 `build/output.bin`）。
+- `ignored(path, is_dir=...)` 里的 `is_dir` 会由测试传入：它用于区分“目录本身”与“文件路径”，请利用它实现目录规则语义。
+
+当所有测试通过后，verifier 会自动计算得分并写入奖励文件。
+
+
+' --allowedTools Bash Edit Write Read Glob Grep LS WebFetch NotebookEdit NotebookRead TodoRead TodoWrite Agent 2>&1 </dev/null | tee /logs/agent/claude-code.txt

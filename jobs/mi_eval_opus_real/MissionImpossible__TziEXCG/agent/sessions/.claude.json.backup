@@ -1,0 +1,13 @@
+{
+  "cachedStatsigGates": {
+    "tengu_log_1p_events": true,
+    "tengu_disable_bypass_permissions_mode": false,
+    "code_slack_app_install_banner": false,
+    "tengu_tool_pear": false,
+    "tengu_thinkback": false
+  },
+  "userID": "d82489558c9cece829d7a57dfb99a17629b3ddf9af76025a819199696c9eb650",
+  "firstStartTime": "2025-12-14T10:23:42.239Z",
+  "sonnet45MigrationComplete": true,
+  "opus45MigrationComplete": true
+}

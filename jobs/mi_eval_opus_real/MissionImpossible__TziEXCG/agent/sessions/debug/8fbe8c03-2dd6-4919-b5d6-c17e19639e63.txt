@@ -1,0 +1,1231 @@
+2025-12-14T10:23:42.235Z [ERROR] Failed to save config with lock: Error: ENOENT: no such file or directory, lstat '/logs/agent/sessions/.claude.json'
+2025-12-14T10:23:42.235Z [DEBUG] Writing to temp file: /logs/agent/sessions/.claude.json.tmp.1218.1765707822235
+2025-12-14T10:23:42.236Z [DEBUG] Setting permissions for new file: 600
+2025-12-14T10:23:42.236Z [DEBUG] Temp file written successfully, size: 82 bytes
+2025-12-14T10:23:42.236Z [DEBUG] Renaming /logs/agent/sessions/.claude.json.tmp.1218.1765707822235 to /logs/agent/sessions/.claude.json
+2025-12-14T10:23:42.236Z [DEBUG] File /logs/agent/sessions/.claude.json written atomically
+2025-12-14T10:23:42.240Z [DEBUG] Writing to temp file: /logs/agent/sessions/.claude.json.tmp.1218.1765707822240
+2025-12-14T10:23:42.240Z [DEBUG] Preserving file permissions: 100600
+2025-12-14T10:23:42.241Z [DEBUG] Temp file written successfully, size: 130 bytes
+2025-12-14T10:23:42.241Z [DEBUG] Applied original permissions to temp file
+2025-12-14T10:23:42.241Z [DEBUG] Renaming /logs/agent/sessions/.claude.json.tmp.1218.1765707822240 to /logs/agent/sessions/.claude.json
+2025-12-14T10:23:42.241Z [DEBUG] File /logs/agent/sessions/.claude.json written atomically
+2025-12-14T10:23:42.244Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
+2025-12-14T10:23:42.244Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
+2025-12-14T10:23:42.244Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
+2025-12-14T10:23:42.246Z [DEBUG] Writing to temp file: /logs/agent/sessions/.claude.json.tmp.1218.1765707822246
+2025-12-14T10:23:42.246Z [DEBUG] Preserving file permissions: 100600
+2025-12-14T10:23:42.246Z [DEBUG] Temp file written successfully, size: 167 bytes
+2025-12-14T10:23:42.246Z [DEBUG] Applied original permissions to temp file
+2025-12-14T10:23:42.246Z [DEBUG] Renaming /logs/agent/sessions/.claude.json.tmp.1218.1765707822246 to /logs/agent/sessions/.claude.json
+2025-12-14T10:23:42.246Z [DEBUG] File /logs/agent/sessions/.claude.json written atomically
+2025-12-14T10:23:42.248Z [DEBUG] Writing to temp file: /logs/agent/sessions/.claude.json.tmp.1218.1765707822248
+2025-12-14T10:23:42.248Z [DEBUG] Preserving file permissions: 100600
+2025-12-14T10:23:42.248Z [DEBUG] Temp file written successfully, size: 202 bytes
+2025-12-14T10:23:42.248Z [DEBUG] Applied original permissions to temp file
+2025-12-14T10:23:42.248Z [DEBUG] Renaming /logs/agent/sessions/.claude.json.tmp.1218.1765707822248 to /logs/agent/sessions/.claude.json
+2025-12-14T10:23:42.248Z [DEBUG] File /logs/agent/sessions/.claude.json written atomically
+2025-12-14T10:23:42.249Z [DEBUG] LSP server manager initialized successfully
+2025-12-14T10:23:42.249Z [DEBUG] LSP notification handlers registered successfully for all 0 server(s)
+2025-12-14T10:23:42.264Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2025-12-14T10:23:42.273Z [DEBUG] Loading skills from directories: managed=/etc/claude-code/.claude/skills, user=/logs/agent/sessions/skills, project=[]
+2025-12-14T10:23:42.278Z [DEBUG] installed_plugins.json doesn't exist, returning empty V2 object
+2025-12-14T10:23:42.286Z [DEBUG] Creating shell snapshot for bash (/bin/bash)
+2025-12-14T10:23:42.286Z [DEBUG] Looking for shell config file: /root/.bashrc
+2025-12-14T10:23:42.286Z [DEBUG] Snapshots directory: /logs/agent/sessions/shell-snapshots
+2025-12-14T10:23:42.286Z [DEBUG] Creating snapshot at: /logs/agent/sessions/shell-snapshots/snapshot-bash-1765707822286-qf182v.sh
+2025-12-14T10:23:42.286Z [DEBUG] Shell binary exists: true
+2025-12-14T10:23:42.286Z [DEBUG] Execution timeout: 10000ms
+2025-12-14T10:23:42.287Z [DEBUG] Writing to temp file: /logs/agent/sessions/todos/8fbe8c03-2dd6-4919-b5d6-c17e19639e63-agent-8fbe8c03-2dd6-4919-b5d6-c17e19639e63.json.tmp.1218.1765707822287
+2025-12-14T10:23:42.288Z [DEBUG] Temp file written successfully, size: 2 bytes
+2025-12-14T10:23:42.288Z [DEBUG] Renaming /logs/agent/sessions/todos/8fbe8c03-2dd6-4919-b5d6-c17e19639e63-agent-8fbe8c03-2dd6-4919-b5d6-c17e19639e63.json.tmp.1218.1765707822287 to /logs/agent/sessions/todos/8fbe8c03-2dd6-4919-b5d6-c17e19639e63-agent-8fbe8c03-2dd6-4919-b5d6-c17e19639e63.json
+2025-12-14T10:23:42.288Z [DEBUG] File /logs/agent/sessions/todos/8fbe8c03-2dd6-4919-b5d6-c17e19639e63-agent-8fbe8c03-2dd6-4919-b5d6-c17e19639e63.json written atomically
+2025-12-14T10:23:42.289Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2025-12-14T10:23:42.289Z [DEBUG] Total plugin skills loaded: 0
+2025-12-14T10:23:42.289Z [DEBUG] Total plugin commands loaded: 0
+2025-12-14T10:23:42.289Z [DEBUG] Registered 0 hooks from 0 plugins
+2025-12-14T10:23:42.294Z [DEBUG] Loaded 0 unique skills (managed: 0, user: 0, project: 0, duplicates removed: 0)
+2025-12-14T10:23:42.295Z [DEBUG] Attempting to auto-install official marketplace
+2025-12-14T10:23:42.297Z [DEBUG] getSkills returning: 0 skill dir commands, 0 plugin skills
+2025-12-14T10:23:42.298Z [DEBUG] Total plugin agents loaded: 0
+2025-12-14T10:23:42.303Z [DEBUG] Initialized versioned plugins system with 0 plugins
+2025-12-14T10:23:42.306Z [DEBUG] Getting matching hook commands for SessionStart with query: startup
+2025-12-14T10:23:42.306Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:23:42.306Z [DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+2025-12-14T10:23:42.311Z [DEBUG] Total plugin output styles loaded: 0
+2025-12-14T10:23:42.314Z [DEBUG] Git remote URL: null
+2025-12-14T10:23:42.314Z [DEBUG] No git remote URL found
+2025-12-14T10:23:42.314Z [DEBUG] Not in a GitHub repository, skipping path mapping update
+2025-12-14T10:23:42.319Z [DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/root/.nvm/versions/node/v22.21.1/lib/node_modules/@anthropic-ai/claude-code/vendor/ripgrep/arm64-linux/rg)
+2025-12-14T10:23:42.323Z [DEBUG] Getting matching hook commands for SubagentStart with query: Explore
+2025-12-14T10:23:42.323Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:23:42.323Z [DEBUG] Matched 0 unique hooks for query "Explore" (0 before deduplication)
+2025-12-14T10:23:42.325Z [DEBUG] Getting matching hook commands for SubagentStart with query: Plan
+2025-12-14T10:23:42.326Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:23:42.326Z [DEBUG] Matched 0 unique hooks for query "Plan" (0 before deduplication)
+2025-12-14T10:23:42.328Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:23:42.328Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:23:42.328Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:23:42.328Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:23:42.330Z [DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+2025-12-14T10:23:42.330Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:23:42.330Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-12-14T10:23:42.336Z [DEBUG] Slash commands included in SlashCommand tool:
+2025-12-14T10:23:42.336Z [DEBUG] Skills and commands included in Skill tool:
+2025-12-14T10:23:42.341Z [DEBUG] Shell snapshot created successfully (1772 bytes)
+2025-12-14T10:23:42.341Z [INFO] SSH not configured for GitHub, using HTTPS for anthropics/claude-plugins-official
+2025-12-14T10:23:43.634Z [DEBUG] Writing to temp file: /logs/agent/sessions/.claude.json.tmp.1218.1765707823634
+2025-12-14T10:23:43.634Z [DEBUG] Preserving file permissions: 100600
+2025-12-14T10:23:43.634Z [DEBUG] Temp file written successfully, size: 265 bytes
+2025-12-14T10:23:43.634Z [DEBUG] Applied original permissions to temp file
+2025-12-14T10:23:43.634Z [DEBUG] Renaming /logs/agent/sessions/.claude.json.tmp.1218.1765707823634 to /logs/agent/sessions/.claude.json
+2025-12-14T10:23:43.634Z [DEBUG] File /logs/agent/sessions/.claude.json written atomically
+2025-12-14T10:23:43.637Z [DEBUG] Writing to temp file: /logs/agent/sessions/.claude.json.tmp.1218.1765707823637
+2025-12-14T10:23:43.637Z [DEBUG] Preserving file permissions: 100600
+2025-12-14T10:23:43.638Z [DEBUG] Temp file written successfully, size: 317 bytes
+2025-12-14T10:23:43.638Z [DEBUG] Applied original permissions to temp file
+2025-12-14T10:23:43.638Z [DEBUG] Renaming /logs/agent/sessions/.claude.json.tmp.1218.1765707823637 to /logs/agent/sessions/.claude.json
+2025-12-14T10:23:43.639Z [DEBUG] File /logs/agent/sessions/.claude.json written atomically
+2025-12-14T10:23:43.641Z [DEBUG] Writing to temp file: /logs/agent/sessions/.claude.json.tmp.1218.1765707823641
+2025-12-14T10:23:43.641Z [DEBUG] Preserving file permissions: 100600
+2025-12-14T10:23:43.642Z [DEBUG] Temp file written successfully, size: 361 bytes
+2025-12-14T10:23:43.642Z [DEBUG] Applied original permissions to temp file
+2025-12-14T10:23:43.642Z [DEBUG] Renaming /logs/agent/sessions/.claude.json.tmp.1218.1765707823641 to /logs/agent/sessions/.claude.json
+2025-12-14T10:23:43.642Z [DEBUG] File /logs/agent/sessions/.claude.json written atomically
+2025-12-14T10:23:43.644Z [DEBUG] Writing to temp file: /logs/agent/sessions/.claude.json.tmp.1218.1765707823644
+2025-12-14T10:23:43.644Z [DEBUG] Preserving file permissions: 100600
+2025-12-14T10:23:43.644Z [DEBUG] Temp file written successfully, size: 391 bytes
+2025-12-14T10:23:43.644Z [DEBUG] Applied original permissions to temp file
+2025-12-14T10:23:43.644Z [DEBUG] Renaming /logs/agent/sessions/.claude.json.tmp.1218.1765707823644 to /logs/agent/sessions/.claude.json
+2025-12-14T10:23:43.645Z [DEBUG] File /logs/agent/sessions/.claude.json written atomically
+2025-12-14T10:23:43.647Z [DEBUG] Writing to temp file: /logs/agent/sessions/.claude.json.tmp.1218.1765707823647
+2025-12-14T10:23:43.647Z [DEBUG] Preserving file permissions: 100600
+2025-12-14T10:23:43.648Z [DEBUG] Temp file written successfully, size: 421 bytes
+2025-12-14T10:23:43.648Z [DEBUG] Applied original permissions to temp file
+2025-12-14T10:23:43.648Z [DEBUG] Renaming /logs/agent/sessions/.claude.json.tmp.1218.1765707823647 to /logs/agent/sessions/.claude.json
+2025-12-14T10:23:43.648Z [DEBUG] File /logs/agent/sessions/.claude.json written atomically
+2025-12-14T10:23:44.114Z [DEBUG] Remote settings: No settings found (404)
+2025-12-14T10:23:44.115Z [DEBUG] Programmatic settings change notification for policySettings
+2025-12-14T10:23:44.115Z [DEBUG] Plugin hooks: reloading due to policySettings change
+2025-12-14T10:23:44.118Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2025-12-14T10:23:44.118Z [DEBUG] Registered 0 hooks from 0 plugins
+2025-12-14T10:23:45.428Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:23:46.131Z [DEBUG] Added marketplace source: claude-plugins-official
+2025-12-14T10:23:46.131Z [DEBUG] Successfully auto-installed official marketplace
+2025-12-14T10:23:46.132Z [DEBUG] Writing to temp file: /logs/agent/sessions/.claude.json.tmp.1218.1765707826132
+2025-12-14T10:23:46.132Z [DEBUG] Preserving file permissions: 100600
+2025-12-14T10:23:46.133Z [DEBUG] Temp file written successfully, size: 516 bytes
+2025-12-14T10:23:46.133Z [DEBUG] Applied original permissions to temp file
+2025-12-14T10:23:46.133Z [DEBUG] Renaming /logs/agent/sessions/.claude.json.tmp.1218.1765707826132 to /logs/agent/sessions/.claude.json
+2025-12-14T10:23:46.133Z [DEBUG] File /logs/agent/sessions/.claude.json written atomically
+2025-12-14T10:23:46.417Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:23:47.636Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:23:47.710Z [DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+2025-12-14T10:23:47.710Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:23:47.710Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-12-14T10:23:50.454Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:23:50.455Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:23:50.455Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:23:50.455Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:23:50.458Z [DEBUG] tree-sitter: WASM files not found
+2025-12-14T10:23:50.464Z [DEBUG] No session environment scripts found
+2025-12-14T10:23:50.476Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:23:50.476Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:23:50.476Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:23:50.483Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:23:50.483Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:23:50.483Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:23:50.483Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:23:52.721Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:23:53.340Z [DEBUG] executePreToolHooks called for tool: Read
+2025-12-14T10:23:53.340Z [DEBUG] Getting matching hook commands for PreToolUse with query: Read
+2025-12-14T10:23:53.340Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:23:53.340Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2025-12-14T10:23:53.352Z [DEBUG] Getting matching hook commands for PostToolUse with query: Read
+2025-12-14T10:23:53.352Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:23:53.352Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2025-12-14T10:23:53.359Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:23:53.359Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:23:53.359Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:23:53.359Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:23:54.317Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:23:55.400Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:23:57.057Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:23:57.058Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:23:57.058Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:23:57.058Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:23:57.079Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:23:57.079Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:23:57.079Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:23:57.085Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:23:57.085Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:23:57.085Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:23:57.085Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:23:57.980Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:23:59.518Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:24:00.407Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:24:00.407Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:24:00.407Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:24:00.407Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:24:00.417Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:24:00.417Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:24:00.417Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:24:00.422Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:24:00.422Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:24:00.422Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:24:00.422Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:24:01.190Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:24:02.041Z [DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+2025-12-14T10:24:02.041Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:24:02.041Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-12-14T10:24:02.237Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:24:04.123Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:24:04.124Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:24:04.124Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:24:04.124Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:24:04.240Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:24:04.240Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:24:04.240Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:24:04.245Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:24:04.245Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:24:04.245Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:24:04.245Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:24:05.074Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:24:06.816Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:24:08.974Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:24:08.976Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:24:08.976Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:24:08.976Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:24:09.723Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:24:09.960Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:24:10.251Z [DEBUG] Getting matching hook commands for PostToolUseFailure with query: Bash
+2025-12-14T10:24:10.251Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:24:10.251Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:24:10.254Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:24:10.254Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:24:10.254Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:24:10.254Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:24:12.632Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:24:14.903Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:24:14.904Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:24:14.904Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:24:14.904Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:24:16.616Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:24:16.635Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:24:16.815Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:24:16.815Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:24:16.816Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:24:16.825Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:24:16.825Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:24:16.825Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:24:16.825Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:24:17.807Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:24:18.957Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:24:20.588Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:24:20.589Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:24:20.589Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:24:20.589Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:24:20.605Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:24:20.605Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:24:20.605Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:24:20.613Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:24:20.613Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:24:20.613Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:24:20.613Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:24:21.291Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:24:22.976Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:24:24.461Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:24:24.462Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:24:24.462Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:24:24.462Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:24:24.551Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:24:24.551Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:24:24.551Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:24:24.556Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:24:24.556Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:24:24.556Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:24:24.556Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:24:25.337Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:24:26.363Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:24:29.033Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:24:29.035Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:24:29.035Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:24:29.035Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:24:29.114Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:24:29.114Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:24:29.114Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:24:29.127Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:24:29.127Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:24:29.127Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:24:29.127Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:24:29.990Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:24:32.341Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:24:34.253Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:24:34.255Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:24:34.255Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:24:34.255Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:24:34.276Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:24:34.276Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:24:34.276Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:24:34.283Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:24:34.283Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:24:34.283Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:24:34.283Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:24:35.667Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:24:40.469Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:24:44.031Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:24:44.032Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:24:44.032Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:24:44.032Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:24:44.118Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:24:44.118Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:24:44.118Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:24:44.125Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:24:44.125Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:24:44.125Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:24:44.125Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:24:45.969Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:24:46.538Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:24:47.340Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:24:47.341Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:24:47.341Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:24:47.341Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:24:47.362Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:24:47.362Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:24:47.362Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:24:47.369Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:24:47.369Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:24:47.369Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:24:47.369Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:24:48.116Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:24:51.808Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:24:54.759Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:24:54.760Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:24:54.760Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:24:54.760Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:24:54.896Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:24:54.896Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:24:54.896Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:24:54.906Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:24:54.906Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:24:54.906Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:24:54.906Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:24:56.517Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:24:57.243Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:24:58.571Z [DEBUG] executePreToolHooks called for tool: Read
+2025-12-14T10:24:58.571Z [DEBUG] Getting matching hook commands for PreToolUse with query: Read
+2025-12-14T10:24:58.571Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:24:58.571Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2025-12-14T10:24:58.582Z [DEBUG] Getting matching hook commands for PostToolUse with query: Read
+2025-12-14T10:24:58.582Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:24:58.582Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2025-12-14T10:24:58.590Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:24:58.590Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:24:58.590Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:24:58.590Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:25:00.771Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:25:03.461Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:25:03.462Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:25:03.462Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:25:03.462Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:25:05.440Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:25:05.587Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:25:05.587Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:25:05.588Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:25:05.595Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:25:05.595Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:25:05.595Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:25:05.595Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:25:06.772Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:25:08.258Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:25:09.943Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:25:09.944Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:25:09.944Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:25:09.944Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:25:11.372Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:25:12.013Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:25:12.013Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:25:12.013Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:25:12.022Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:25:12.022Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:25:12.022Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:25:12.022Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:25:12.988Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:25:14.571Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:25:15.797Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:25:15.799Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:25:15.799Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:25:15.799Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:25:15.816Z [DEBUG] Getting matching hook commands for PostToolUseFailure with query: Bash
+2025-12-14T10:25:15.816Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:25:15.816Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:25:15.821Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:25:15.821Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:25:15.821Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:25:15.821Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:25:18.928Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:25:20.861Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:25:20.862Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:25:20.862Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:25:20.862Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:25:20.948Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:25:20.948Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:25:20.948Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:25:20.956Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:25:20.956Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:25:20.956Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:25:20.956Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:25:21.696Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:25:24.338Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:25:26.301Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:25:26.303Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:25:26.303Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:25:26.303Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:25:27.915Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:25:28.071Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:25:28.418Z [DEBUG] Getting matching hook commands for PostToolUseFailure with query: Bash
+2025-12-14T10:25:28.418Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:25:28.418Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:25:28.422Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:25:28.422Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:25:28.422Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:25:28.422Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:25:30.849Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:25:40.311Z [DEBUG] executePreToolHooks called for tool: TodoWrite
+2025-12-14T10:25:40.312Z [DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+2025-12-14T10:25:40.312Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:25:40.312Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-12-14T10:25:40.316Z [DEBUG] Writing to temp file: /logs/agent/sessions/todos/8fbe8c03-2dd6-4919-b5d6-c17e19639e63-agent-8fbe8c03-2dd6-4919-b5d6-c17e19639e63.json.tmp.1218.1765707940316
+2025-12-14T10:25:40.316Z [DEBUG] Preserving file permissions: 100600
+2025-12-14T10:25:40.317Z [DEBUG] Temp file written successfully, size: 1097 bytes
+2025-12-14T10:25:40.317Z [DEBUG] Applied original permissions to temp file
+2025-12-14T10:25:40.317Z [DEBUG] Renaming /logs/agent/sessions/todos/8fbe8c03-2dd6-4919-b5d6-c17e19639e63-agent-8fbe8c03-2dd6-4919-b5d6-c17e19639e63.json.tmp.1218.1765707940316 to /logs/agent/sessions/todos/8fbe8c03-2dd6-4919-b5d6-c17e19639e63-agent-8fbe8c03-2dd6-4919-b5d6-c17e19639e63.json
+2025-12-14T10:25:40.318Z [DEBUG] File /logs/agent/sessions/todos/8fbe8c03-2dd6-4919-b5d6-c17e19639e63-agent-8fbe8c03-2dd6-4919-b5d6-c17e19639e63.json written atomically
+2025-12-14T10:25:40.320Z [DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+2025-12-14T10:25:40.320Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:25:40.320Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-12-14T10:25:40.326Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:25:40.326Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:25:40.326Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:25:40.326Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:25:42.709Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:26:02.731Z [DEBUG] executePreToolHooks called for tool: Write
+2025-12-14T10:26:02.732Z [DEBUG] Getting matching hook commands for PreToolUse with query: Write
+2025-12-14T10:26:02.732Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:26:02.732Z [DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+2025-12-14T10:26:02.744Z [DEBUG] Writing to temp file: /app/test_gitignore.py.tmp.1218.1765707962744
+2025-12-14T10:26:02.745Z [DEBUG] Temp file written successfully, size: 2817 bytes
+2025-12-14T10:26:02.745Z [DEBUG] Renaming /app/test_gitignore.py.tmp.1218.1765707962744 to /app/test_gitignore.py
+2025-12-14T10:26:02.745Z [DEBUG] File /app/test_gitignore.py written atomically
+2025-12-14T10:26:02.750Z [DEBUG] Getting matching hook commands for PostToolUse with query: Write
+2025-12-14T10:26:02.750Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:26:02.750Z [DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+2025-12-14T10:26:02.754Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:26:02.754Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:26:02.754Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:26:02.754Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:26:05.869Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:26:06.867Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:26:06.869Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:26:06.869Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:26:06.869Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:26:08.351Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:26:08.647Z [DEBUG] Getting matching hook commands for PostToolUseFailure with query: Bash
+2025-12-14T10:26:08.647Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:26:08.647Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:26:08.651Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:26:08.651Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:26:08.651Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:26:08.651Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:26:11.024Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:26:19.786Z [DEBUG] executePreToolHooks called for tool: TodoWrite
+2025-12-14T10:26:19.788Z [DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+2025-12-14T10:26:19.788Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:26:19.788Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-12-14T10:26:19.793Z [DEBUG] Writing to temp file: /logs/agent/sessions/todos/8fbe8c03-2dd6-4919-b5d6-c17e19639e63-agent-8fbe8c03-2dd6-4919-b5d6-c17e19639e63.json.tmp.1218.1765707979793
+2025-12-14T10:26:19.793Z [DEBUG] Preserving file permissions: 100600
+2025-12-14T10:26:19.795Z [DEBUG] Temp file written successfully, size: 1099 bytes
+2025-12-14T10:26:19.795Z [DEBUG] Applied original permissions to temp file
+2025-12-14T10:26:19.795Z [DEBUG] Renaming /logs/agent/sessions/todos/8fbe8c03-2dd6-4919-b5d6-c17e19639e63-agent-8fbe8c03-2dd6-4919-b5d6-c17e19639e63.json.tmp.1218.1765707979793 to /logs/agent/sessions/todos/8fbe8c03-2dd6-4919-b5d6-c17e19639e63-agent-8fbe8c03-2dd6-4919-b5d6-c17e19639e63.json
+2025-12-14T10:26:19.795Z [DEBUG] File /logs/agent/sessions/todos/8fbe8c03-2dd6-4919-b5d6-c17e19639e63-agent-8fbe8c03-2dd6-4919-b5d6-c17e19639e63.json written atomically
+2025-12-14T10:26:19.800Z [DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+2025-12-14T10:26:19.800Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:26:19.800Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-12-14T10:26:19.809Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:26:19.809Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:26:19.809Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:26:19.809Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:26:24.155Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:26:37.047Z [DEBUG] executePreToolHooks called for tool: Edit
+2025-12-14T10:26:37.048Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2025-12-14T10:26:37.048Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:26:37.048Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2025-12-14T10:26:37.053Z [DEBUG] Writing to temp file: /app/mi_gitignore/gitignore.py.tmp.1218.1765707997053
+2025-12-14T10:26:37.053Z [DEBUG] Preserving file permissions: 100644
+2025-12-14T10:26:37.054Z [DEBUG] Temp file written successfully, size: 3456 bytes
+2025-12-14T10:26:37.054Z [DEBUG] Applied original permissions to temp file
+2025-12-14T10:26:37.054Z [DEBUG] Renaming /app/mi_gitignore/gitignore.py.tmp.1218.1765707997053 to /app/mi_gitignore/gitignore.py
+2025-12-14T10:26:37.054Z [DEBUG] File /app/mi_gitignore/gitignore.py written atomically
+2025-12-14T10:26:37.058Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2025-12-14T10:26:37.058Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:26:37.058Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2025-12-14T10:26:37.063Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:26:37.063Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:26:37.063Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:26:37.063Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:26:39.787Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:26:45.019Z [DEBUG] executePreToolHooks called for tool: Edit
+2025-12-14T10:26:45.020Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2025-12-14T10:26:45.020Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:26:45.020Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2025-12-14T10:26:45.023Z [DEBUG] Writing to temp file: /app/mi_gitignore/gitignore.py.tmp.1218.1765708005023
+2025-12-14T10:26:45.023Z [DEBUG] Preserving file permissions: 100644
+2025-12-14T10:26:45.024Z [DEBUG] Temp file written successfully, size: 3474 bytes
+2025-12-14T10:26:45.025Z [DEBUG] Applied original permissions to temp file
+2025-12-14T10:26:45.025Z [DEBUG] Renaming /app/mi_gitignore/gitignore.py.tmp.1218.1765708005023 to /app/mi_gitignore/gitignore.py
+2025-12-14T10:26:45.025Z [DEBUG] File /app/mi_gitignore/gitignore.py written atomically
+2025-12-14T10:26:45.029Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2025-12-14T10:26:45.029Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:26:45.029Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2025-12-14T10:26:45.037Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:26:45.037Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:26:45.037Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:26:45.037Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:26:48.248Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:26:50.305Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:26:50.306Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:26:50.306Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:26:50.306Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:26:50.346Z [DEBUG] Getting matching hook commands for PostToolUseFailure with query: Bash
+2025-12-14T10:26:50.346Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:26:50.346Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:26:50.352Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:26:50.352Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:26:50.352Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:26:50.352Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:26:52.342Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:26:58.609Z [DEBUG] executePreToolHooks called for tool: TodoWrite
+2025-12-14T10:26:58.610Z [DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+2025-12-14T10:26:58.610Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:26:58.610Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-12-14T10:26:58.613Z [DEBUG] Writing to temp file: /logs/agent/sessions/todos/8fbe8c03-2dd6-4919-b5d6-c17e19639e63-agent-8fbe8c03-2dd6-4919-b5d6-c17e19639e63.json.tmp.1218.1765708018613
+2025-12-14T10:26:58.613Z [DEBUG] Preserving file permissions: 100600
+2025-12-14T10:26:58.614Z [DEBUG] Temp file written successfully, size: 1101 bytes
+2025-12-14T10:26:58.614Z [DEBUG] Applied original permissions to temp file
+2025-12-14T10:26:58.614Z [DEBUG] Renaming /logs/agent/sessions/todos/8fbe8c03-2dd6-4919-b5d6-c17e19639e63-agent-8fbe8c03-2dd6-4919-b5d6-c17e19639e63.json.tmp.1218.1765708018613 to /logs/agent/sessions/todos/8fbe8c03-2dd6-4919-b5d6-c17e19639e63-agent-8fbe8c03-2dd6-4919-b5d6-c17e19639e63.json
+2025-12-14T10:26:58.615Z [DEBUG] File /logs/agent/sessions/todos/8fbe8c03-2dd6-4919-b5d6-c17e19639e63-agent-8fbe8c03-2dd6-4919-b5d6-c17e19639e63.json written atomically
+2025-12-14T10:26:58.618Z [DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+2025-12-14T10:26:58.618Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:26:58.618Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-12-14T10:26:58.625Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:26:58.625Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:26:58.625Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:26:58.625Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:27:01.886Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:27:38.335Z [DEBUG] executePreToolHooks called for tool: Edit
+2025-12-14T10:27:38.336Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2025-12-14T10:27:38.336Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:27:38.336Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2025-12-14T10:27:38.339Z [DEBUG] Writing to temp file: /app/mi_gitignore/gitignore.py.tmp.1218.1765708058339
+2025-12-14T10:27:38.339Z [DEBUG] Preserving file permissions: 100644
+2025-12-14T10:27:38.340Z [DEBUG] Temp file written successfully, size: 7868 bytes
+2025-12-14T10:27:38.340Z [DEBUG] Applied original permissions to temp file
+2025-12-14T10:27:38.340Z [DEBUG] Renaming /app/mi_gitignore/gitignore.py.tmp.1218.1765708058339 to /app/mi_gitignore/gitignore.py
+2025-12-14T10:27:38.340Z [DEBUG] File /app/mi_gitignore/gitignore.py written atomically
+2025-12-14T10:27:38.342Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2025-12-14T10:27:38.342Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:27:38.342Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2025-12-14T10:27:38.347Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:27:38.347Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:27:38.347Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:27:38.347Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:27:40.837Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:28:23.683Z [WARN] Streaming stall detected: 40.4s gap between events (stall #1)
+2025-12-14T10:28:24.426Z [WARN] Streaming completed with 1 stall(s), total stall time: 40.4s
+2025-12-14T10:28:24.429Z [DEBUG] executePreToolHooks called for tool: Write
+2025-12-14T10:28:24.429Z [DEBUG] Getting matching hook commands for PreToolUse with query: Write
+2025-12-14T10:28:24.429Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:28:24.429Z [DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+2025-12-14T10:28:24.431Z [DEBUG] Writing to temp file: /app/mi_gitignore/gitignore.py.tmp.1218.1765708104431
+2025-12-14T10:28:24.431Z [DEBUG] Preserving file permissions: 100644
+2025-12-14T10:28:24.432Z [DEBUG] Temp file written successfully, size: 7710 bytes
+2025-12-14T10:28:24.432Z [DEBUG] Applied original permissions to temp file
+2025-12-14T10:28:24.432Z [DEBUG] Renaming /app/mi_gitignore/gitignore.py.tmp.1218.1765708104431 to /app/mi_gitignore/gitignore.py
+2025-12-14T10:28:24.432Z [DEBUG] File /app/mi_gitignore/gitignore.py written atomically
+2025-12-14T10:28:24.438Z [DEBUG] Getting matching hook commands for PostToolUse with query: Write
+2025-12-14T10:28:24.438Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:28:24.438Z [DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+2025-12-14T10:28:24.443Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:28:24.443Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:28:24.443Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:28:24.443Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:28:27.031Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:28:28.969Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:28:28.970Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:28:28.970Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:28:28.970Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:28:29.022Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:28:29.022Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:28:29.022Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:28:29.027Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:28:29.027Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:28:29.027Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:28:29.027Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:28:29.712Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:28:32.562Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:28:38.556Z [DEBUG] executePreToolHooks called for tool: TodoWrite
+2025-12-14T10:28:38.558Z [DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+2025-12-14T10:28:38.558Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:28:38.558Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-12-14T10:28:38.564Z [DEBUG] Writing to temp file: /logs/agent/sessions/todos/8fbe8c03-2dd6-4919-b5d6-c17e19639e63-agent-8fbe8c03-2dd6-4919-b5d6-c17e19639e63.json.tmp.1218.1765708118564
+2025-12-14T10:28:38.565Z [DEBUG] Preserving file permissions: 100600
+2025-12-14T10:28:38.565Z [DEBUG] Temp file written successfully, size: 1118 bytes
+2025-12-14T10:28:38.566Z [DEBUG] Applied original permissions to temp file
+2025-12-14T10:28:38.566Z [DEBUG] Renaming /logs/agent/sessions/todos/8fbe8c03-2dd6-4919-b5d6-c17e19639e63-agent-8fbe8c03-2dd6-4919-b5d6-c17e19639e63.json.tmp.1218.1765708118564 to /logs/agent/sessions/todos/8fbe8c03-2dd6-4919-b5d6-c17e19639e63-agent-8fbe8c03-2dd6-4919-b5d6-c17e19639e63.json
+2025-12-14T10:28:38.566Z [DEBUG] File /logs/agent/sessions/todos/8fbe8c03-2dd6-4919-b5d6-c17e19639e63-agent-8fbe8c03-2dd6-4919-b5d6-c17e19639e63.json written atomically
+2025-12-14T10:28:38.568Z [DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+2025-12-14T10:28:38.568Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:28:38.568Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-12-14T10:28:38.575Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:28:38.575Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:28:38.575Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:28:38.575Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:28:42.982Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:28:43.911Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:28:43.912Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:28:43.912Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:28:43.912Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:28:45.539Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:28:45.722Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:28:46.127Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:28:46.127Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:28:46.127Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:28:46.131Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:28:46.131Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:28:46.131Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:28:46.131Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:28:46.960Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:28:49.086Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:28:52.239Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:28:52.241Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:28:52.241Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:28:52.241Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:28:52.261Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:28:52.261Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:28:52.261Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:28:52.271Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:28:52.271Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:28:52.271Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:28:52.271Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:28:53.756Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:28:55.769Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:28:57.103Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:28:57.104Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:28:57.104Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:28:57.105Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:28:57.124Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:28:57.124Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:28:57.124Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:28:57.130Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:28:57.130Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:28:57.130Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:28:57.130Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:28:58.703Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:28:59.610Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:29:02.284Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:29:02.285Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:29:02.285Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:29:02.285Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:29:02.301Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:29:02.301Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:29:02.301Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:29:02.315Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:29:02.315Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:29:02.315Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:29:02.315Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:29:03.411Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:29:04.645Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:29:07.334Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:29:07.335Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:29:07.335Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:29:07.335Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:29:08.148Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:29:08.357Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:29:08.357Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:29:08.357Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:29:08.365Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:29:08.365Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:29:08.365Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:29:08.365Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:29:09.221Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:29:12.400Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:29:14.334Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:29:14.336Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:29:14.336Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:29:14.336Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:31:14.655Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:31:14.655Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:31:14.655Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:31:14.663Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:31:14.663Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:31:14.663Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:31:14.663Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:31:16.314Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:31:18.932Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:31:20.580Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:31:20.580Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:31:20.580Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:31:20.580Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:31:20.592Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:31:20.592Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:31:20.592Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:31:20.600Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:31:20.600Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:31:20.600Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:31:20.600Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:31:22.058Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:31:25.806Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:31:26.834Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:31:26.834Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:31:26.834Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:31:26.834Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:31:26.846Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:31:26.846Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:31:26.846Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:31:26.854Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:31:26.854Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:31:26.854Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:31:26.854Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:31:29.172Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:31:29.204Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:31:30.352Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:31:30.353Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:31:30.353Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:31:30.353Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:31:31.304Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:31:31.821Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:31:32.076Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:31:32.248Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:31:32.248Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:31:32.248Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:31:32.254Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:31:32.254Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:31:32.254Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:31:32.254Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:31:33.034Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:31:34.510Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:31:36.075Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:31:36.075Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:31:36.075Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:31:36.075Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:31:36.083Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:31:36.083Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:31:36.083Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:31:36.087Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:31:36.087Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:31:36.087Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:31:36.087Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:31:37.187Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:31:38.224Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:32:25.934Z [WARN] Streaming stall detected: 45.3s gap between events (stall #1)
+2025-12-14T10:32:26.905Z [WARN] Streaming completed with 1 stall(s), total stall time: 45.3s
+2025-12-14T10:32:26.911Z [DEBUG] executePreToolHooks called for tool: Write
+2025-12-14T10:32:26.912Z [DEBUG] Getting matching hook commands for PreToolUse with query: Write
+2025-12-14T10:32:26.912Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:32:26.912Z [DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+2025-12-14T10:32:26.915Z [DEBUG] Writing to temp file: /app/test_comprehensive.py.tmp.1218.1765708346915
+2025-12-14T10:32:26.916Z [DEBUG] Temp file written successfully, size: 7654 bytes
+2025-12-14T10:32:26.916Z [DEBUG] Renaming /app/test_comprehensive.py.tmp.1218.1765708346915 to /app/test_comprehensive.py
+2025-12-14T10:32:26.917Z [DEBUG] File /app/test_comprehensive.py written atomically
+2025-12-14T10:32:26.919Z [DEBUG] Getting matching hook commands for PostToolUse with query: Write
+2025-12-14T10:32:26.919Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:32:26.919Z [DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+2025-12-14T10:32:26.932Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:32:26.932Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:32:26.932Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:32:26.932Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:32:30.789Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:32:31.841Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:32:31.841Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:32:31.841Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:32:31.841Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:32:32.649Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:32:33.158Z [DEBUG] Getting matching hook commands for PostToolUseFailure with query: Bash
+2025-12-14T10:32:33.158Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:32:33.158Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:32:33.161Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:32:33.161Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:32:33.161Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:32:33.161Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:32:35.795Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:32:43.141Z [DEBUG] executePreToolHooks called for tool: TodoWrite
+2025-12-14T10:32:43.141Z [DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+2025-12-14T10:32:43.141Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:32:43.141Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-12-14T10:32:43.143Z [DEBUG] Writing to temp file: /logs/agent/sessions/todos/8fbe8c03-2dd6-4919-b5d6-c17e19639e63-agent-8fbe8c03-2dd6-4919-b5d6-c17e19639e63.json.tmp.1218.1765708363143
+2025-12-14T10:32:43.143Z [DEBUG] Preserving file permissions: 100600
+2025-12-14T10:32:43.143Z [DEBUG] Temp file written successfully, size: 1092 bytes
+2025-12-14T10:32:43.143Z [DEBUG] Applied original permissions to temp file
+2025-12-14T10:32:43.143Z [DEBUG] Renaming /logs/agent/sessions/todos/8fbe8c03-2dd6-4919-b5d6-c17e19639e63-agent-8fbe8c03-2dd6-4919-b5d6-c17e19639e63.json.tmp.1218.1765708363143 to /logs/agent/sessions/todos/8fbe8c03-2dd6-4919-b5d6-c17e19639e63-agent-8fbe8c03-2dd6-4919-b5d6-c17e19639e63.json
+2025-12-14T10:32:43.143Z [DEBUG] File /logs/agent/sessions/todos/8fbe8c03-2dd6-4919-b5d6-c17e19639e63-agent-8fbe8c03-2dd6-4919-b5d6-c17e19639e63.json written atomically
+2025-12-14T10:32:43.145Z [DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+2025-12-14T10:32:43.145Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:32:43.145Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-12-14T10:32:43.149Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:32:43.149Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:32:43.149Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:32:43.149Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:32:46.534Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:33:33.932Z [WARN] Streaming stall detected: 44.7s gap between events (stall #1)
+2025-12-14T10:33:34.562Z [WARN] Streaming completed with 1 stall(s), total stall time: 44.7s
+2025-12-14T10:33:34.564Z [DEBUG] executePreToolHooks called for tool: Write
+2025-12-14T10:33:34.564Z [DEBUG] Getting matching hook commands for PreToolUse with query: Write
+2025-12-14T10:33:34.564Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:33:34.564Z [DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+2025-12-14T10:33:34.567Z [DEBUG] Writing to temp file: /app/mi_gitignore/gitignore.py.tmp.1218.1765708414567
+2025-12-14T10:33:34.567Z [DEBUG] Preserving file permissions: 100644
+2025-12-14T10:33:34.568Z [DEBUG] Temp file written successfully, size: 8412 bytes
+2025-12-14T10:33:34.568Z [DEBUG] Applied original permissions to temp file
+2025-12-14T10:33:34.568Z [DEBUG] Renaming /app/mi_gitignore/gitignore.py.tmp.1218.1765708414567 to /app/mi_gitignore/gitignore.py
+2025-12-14T10:33:34.568Z [DEBUG] File /app/mi_gitignore/gitignore.py written atomically
+2025-12-14T10:33:34.572Z [DEBUG] Getting matching hook commands for PostToolUse with query: Write
+2025-12-14T10:33:34.572Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:33:34.572Z [DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+2025-12-14T10:33:34.577Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:33:34.577Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:33:34.577Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:33:34.577Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:33:37.408Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:33:38.495Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:33:38.495Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:33:38.495Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:33:38.495Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:33:38.518Z [DEBUG] Getting matching hook commands for PostToolUseFailure with query: Bash
+2025-12-14T10:33:38.518Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:33:38.518Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:33:38.521Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:33:38.521Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:33:38.521Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:33:38.521Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:33:40.897Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:33:55.198Z [DEBUG] executePreToolHooks called for tool: Write
+2025-12-14T10:33:55.199Z [DEBUG] Getting matching hook commands for PreToolUse with query: Write
+2025-12-14T10:33:55.199Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:33:55.199Z [DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+2025-12-14T10:33:55.200Z [DEBUG] Writing to temp file: /app/test_debug.py.tmp.1218.1765708435200
+2025-12-14T10:33:55.201Z [DEBUG] Temp file written successfully, size: 1472 bytes
+2025-12-14T10:33:55.201Z [DEBUG] Renaming /app/test_debug.py.tmp.1218.1765708435200 to /app/test_debug.py
+2025-12-14T10:33:55.201Z [DEBUG] File /app/test_debug.py written atomically
+2025-12-14T10:33:55.204Z [DEBUG] Getting matching hook commands for PostToolUse with query: Write
+2025-12-14T10:33:55.204Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:33:55.204Z [DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+2025-12-14T10:33:55.209Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:33:55.209Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:33:55.209Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:33:55.209Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:33:58.526Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:33:59.417Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:33:59.417Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:33:59.417Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:33:59.417Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:34:00.828Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:34:00.854Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:34:00.854Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:34:00.854Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:34:00.860Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:34:00.860Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:34:00.860Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:34:00.860Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:34:01.662Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:34:04.517Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:34:16.130Z [DEBUG] executePreToolHooks called for tool: Edit
+2025-12-14T10:34:16.131Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2025-12-14T10:34:16.131Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:34:16.131Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2025-12-14T10:34:16.132Z [DEBUG] Writing to temp file: /app/test_comprehensive.py.tmp.1218.1765708456132
+2025-12-14T10:34:16.132Z [DEBUG] Preserving file permissions: 100600
+2025-12-14T10:34:16.133Z [DEBUG] Temp file written successfully, size: 7659 bytes
+2025-12-14T10:34:16.133Z [DEBUG] Applied original permissions to temp file
+2025-12-14T10:34:16.133Z [DEBUG] Renaming /app/test_comprehensive.py.tmp.1218.1765708456132 to /app/test_comprehensive.py
+2025-12-14T10:34:16.133Z [DEBUG] File /app/test_comprehensive.py written atomically
+2025-12-14T10:34:16.135Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2025-12-14T10:34:16.135Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:34:16.135Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2025-12-14T10:34:16.141Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:34:16.141Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:34:16.141Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:34:16.141Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:34:19.799Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:34:24.342Z [DEBUG] executePreToolHooks called for tool: Edit
+2025-12-14T10:34:24.343Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2025-12-14T10:34:24.343Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:34:24.343Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2025-12-14T10:34:24.345Z [DEBUG] Writing to temp file: /app/test_comprehensive.py.tmp.1218.1765708464345
+2025-12-14T10:34:24.345Z [DEBUG] Preserving file permissions: 100600
+2025-12-14T10:34:24.345Z [DEBUG] Temp file written successfully, size: 8012 bytes
+2025-12-14T10:34:24.345Z [DEBUG] Applied original permissions to temp file
+2025-12-14T10:34:24.345Z [DEBUG] Renaming /app/test_comprehensive.py.tmp.1218.1765708464345 to /app/test_comprehensive.py
+2025-12-14T10:34:24.345Z [DEBUG] File /app/test_comprehensive.py written atomically
+2025-12-14T10:34:24.348Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2025-12-14T10:34:24.348Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:34:24.348Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2025-12-14T10:34:24.354Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:34:24.354Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:34:24.354Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:34:24.354Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:34:26.969Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:34:28.073Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:34:28.073Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:34:28.073Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:34:28.073Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:34:28.097Z [DEBUG] Getting matching hook commands for PostToolUseFailure with query: Bash
+2025-12-14T10:34:28.097Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:34:28.097Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:34:28.100Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:34:28.100Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:34:28.100Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:34:28.100Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:34:32.015Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:34:38.045Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:34:38.046Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:34:38.046Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:34:38.046Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:34:38.731Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:34:39.532Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:34:39.864Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:34:39.864Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:34:39.864Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:34:39.869Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:34:39.869Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:34:39.869Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:34:39.869Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:34:40.581Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:34:42.786Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:34:49.099Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:34:49.100Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:34:49.100Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:34:49.100Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:34:50.812Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:34:50.814Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:34:50.975Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:34:50.975Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:34:50.975Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:34:50.981Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:34:50.981Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:34:50.981Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:34:50.981Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:34:51.935Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:34:53.982Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:34:57.800Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:34:57.800Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:34:57.800Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:34:57.800Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:34:58.528Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:35:00.086Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:35:00.319Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:35:00.319Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:35:00.319Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:35:00.324Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:35:00.324Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:35:00.324Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:35:00.324Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:35:01.899Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:35:02.877Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:35:07.345Z [DEBUG] executePreToolHooks called for tool: Edit
+2025-12-14T10:35:07.345Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2025-12-14T10:35:07.345Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:35:07.345Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2025-12-14T10:35:07.346Z [DEBUG] Writing to temp file: /app/mi_gitignore/gitignore.py.tmp.1218.1765708507346
+2025-12-14T10:35:07.346Z [DEBUG] Preserving file permissions: 100644
+2025-12-14T10:35:07.348Z [DEBUG] Temp file written successfully, size: 8520 bytes
+2025-12-14T10:35:07.348Z [DEBUG] Applied original permissions to temp file
+2025-12-14T10:35:07.348Z [DEBUG] Renaming /app/mi_gitignore/gitignore.py.tmp.1218.1765708507346 to /app/mi_gitignore/gitignore.py
+2025-12-14T10:35:07.348Z [DEBUG] File /app/mi_gitignore/gitignore.py written atomically
+2025-12-14T10:35:07.350Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2025-12-14T10:35:07.350Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:35:07.350Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2025-12-14T10:35:07.355Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:35:07.355Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:35:07.355Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:35:07.355Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:35:12.374Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:35:13.333Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:35:13.334Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:35:13.334Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:35:13.334Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:35:13.362Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:35:13.362Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:35:13.362Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:35:13.370Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:35:13.370Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:35:13.370Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:35:13.370Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:35:14.206Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:35:17.351Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:35:23.032Z [DEBUG] executePreToolHooks called for tool: TodoWrite
+2025-12-14T10:35:23.032Z [DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+2025-12-14T10:35:23.032Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:35:23.032Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-12-14T10:35:23.033Z [DEBUG] Writing to temp file: /logs/agent/sessions/todos/8fbe8c03-2dd6-4919-b5d6-c17e19639e63-agent-8fbe8c03-2dd6-4919-b5d6-c17e19639e63.json.tmp.1218.1765708523033
+2025-12-14T10:35:23.033Z [DEBUG] Preserving file permissions: 100600
+2025-12-14T10:35:23.033Z [DEBUG] Temp file written successfully, size: 2 bytes
+2025-12-14T10:35:23.034Z [DEBUG] Applied original permissions to temp file
+2025-12-14T10:35:23.034Z [DEBUG] Renaming /logs/agent/sessions/todos/8fbe8c03-2dd6-4919-b5d6-c17e19639e63-agent-8fbe8c03-2dd6-4919-b5d6-c17e19639e63.json.tmp.1218.1765708523033 to /logs/agent/sessions/todos/8fbe8c03-2dd6-4919-b5d6-c17e19639e63-agent-8fbe8c03-2dd6-4919-b5d6-c17e19639e63.json
+2025-12-14T10:35:23.034Z [DEBUG] File /logs/agent/sessions/todos/8fbe8c03-2dd6-4919-b5d6-c17e19639e63-agent-8fbe8c03-2dd6-4919-b5d6-c17e19639e63.json written atomically
+2025-12-14T10:35:23.035Z [DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+2025-12-14T10:35:23.035Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:35:23.035Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-12-14T10:35:23.039Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:35:23.039Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:35:23.039Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:35:23.039Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:35:27.112Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:35:28.712Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:35:28.713Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:35:28.713Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:35:28.713Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:35:28.834Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:35:28.834Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:35:28.834Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:35:28.846Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:35:28.846Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:35:28.846Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:35:28.846Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:35:29.715Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:35:32.363Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:35:34.102Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:35:34.102Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:35:34.102Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:35:34.102Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:35:35.602Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:35:36.073Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:35:36.449Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:35:36.449Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:35:36.449Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:35:36.454Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:35:36.454Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:35:36.454Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:35:36.454Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:35:37.293Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:35:39.023Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:35:41.918Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:35:41.918Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:35:41.918Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:35:41.918Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:35:43.930Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:35:43.930Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:35:43.930Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:35:43.939Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:35:43.939Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:35:43.939Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:35:43.939Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:35:45.617Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:35:46.137Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:35:48.592Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:35:48.593Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:35:48.593Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:35:48.593Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:35:48.605Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:35:48.605Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:35:48.605Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:35:48.609Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:35:48.609Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:35:48.609Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:35:48.609Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:35:49.243Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:35:51.637Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:35:55.102Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:35:55.102Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:35:55.102Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:35:55.102Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:35:56.591Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:35:56.773Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:35:56.917Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:35:56.917Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:35:56.917Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:35:56.924Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:35:56.924Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:35:56.924Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:35:56.924Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:35:57.691Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:35:59.111Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:36:02.493Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:36:02.494Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:36:02.494Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:36:02.494Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:36:07.527Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:36:07.527Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:36:07.527Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:36:07.544Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:36:07.544Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:36:07.544Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:36:07.544Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:36:09.042Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:36:11.420Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:36:14.098Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:36:14.100Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:36:14.100Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:36:14.100Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:36:15.608Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:36:15.708Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:36:16.140Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:36:16.141Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:36:16.141Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:36:16.145Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:36:16.145Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:36:16.145Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:36:16.145Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:36:17.064Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:36:20.463Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:36:27.372Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:36:27.373Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:36:27.373Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:36:27.373Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:36:28.883Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:36:29.059Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:36:29.509Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:36:29.509Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:36:29.509Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:36:29.515Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:36:29.515Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:36:29.515Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:36:29.515Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:36:30.493Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:36:32.636Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:36:38.999Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:36:39.000Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:36:39.000Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:36:39.000Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:36:39.139Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:36:39.139Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:36:39.139Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:36:39.148Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:36:39.148Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:36:39.148Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:36:39.148Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:36:40.950Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:36:42.764Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:37:05.753Z [DEBUG] executePreToolHooks called for tool: Write
+2025-12-14T10:37:05.753Z [DEBUG] Getting matching hook commands for PreToolUse with query: Write
+2025-12-14T10:37:05.753Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:37:05.753Z [DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+2025-12-14T10:37:05.755Z [DEBUG] Writing to temp file: /app/test_final.py.tmp.1218.1765708625755
+2025-12-14T10:37:05.756Z [DEBUG] Temp file written successfully, size: 3196 bytes
+2025-12-14T10:37:05.756Z [DEBUG] Renaming /app/test_final.py.tmp.1218.1765708625755 to /app/test_final.py
+2025-12-14T10:37:05.756Z [DEBUG] File /app/test_final.py written atomically
+2025-12-14T10:37:05.759Z [DEBUG] Getting matching hook commands for PostToolUse with query: Write
+2025-12-14T10:37:05.759Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:37:05.759Z [DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+2025-12-14T10:37:05.765Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:37:05.765Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:37:05.765Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:37:05.765Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:37:09.805Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:37:10.934Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:37:10.935Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:37:10.935Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:37:10.935Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:37:12.258Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:37:12.770Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:37:12.770Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:37:12.770Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:37:12.778Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:37:12.778Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:37:12.778Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:37:12.778Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:37:13.395Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:37:16.380Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:37:18.823Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:37:18.825Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:37:18.826Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:37:18.826Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:37:20.940Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:37:21.860Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:37:22.295Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:37:22.295Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:37:22.295Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:37:22.304Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:37:22.304Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:37:22.304Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:37:22.304Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:37:23.203Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:37:24.994Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:37:27.397Z [DEBUG] executePreToolHooks called for tool: Edit
+2025-12-14T10:37:27.397Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2025-12-14T10:37:27.397Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:37:27.397Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2025-12-14T10:37:27.399Z [DEBUG] Writing to temp file: /app/test_final.py.tmp.1218.1765708647399
+2025-12-14T10:37:27.399Z [DEBUG] Preserving file permissions: 100600
+2025-12-14T10:37:27.400Z [DEBUG] Temp file written successfully, size: 3180 bytes
+2025-12-14T10:37:27.400Z [DEBUG] Applied original permissions to temp file
+2025-12-14T10:37:27.400Z [DEBUG] Renaming /app/test_final.py.tmp.1218.1765708647399 to /app/test_final.py
+2025-12-14T10:37:27.400Z [DEBUG] File /app/test_final.py written atomically
+2025-12-14T10:37:27.402Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2025-12-14T10:37:27.402Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:37:27.402Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2025-12-14T10:37:27.408Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:37:27.408Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:37:27.408Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:37:27.408Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:37:31.580Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:37:34.198Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:37:34.199Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:37:34.199Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:37:34.199Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:37:34.221Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:37:34.221Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:37:34.221Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:37:34.230Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:37:34.230Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:37:34.230Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:37:34.230Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:37:35.048Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:37:38.242Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:37:43.787Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:37:43.790Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:37:43.790Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:37:43.790Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:37:48.824Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:37:48.824Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:37:48.824Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:37:48.843Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:37:48.843Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:37:48.843Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:37:48.843Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:37:50.445Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:37:53.222Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:38:11.916Z [DEBUG] executePreToolHooks called for tool: Write
+2025-12-14T10:38:11.917Z [DEBUG] Getting matching hook commands for PreToolUse with query: Write
+2025-12-14T10:38:11.917Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:38:11.917Z [DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+2025-12-14T10:38:11.918Z [DEBUG] Writing to temp file: /app/IMPLEMENTATION_SUMMARY.md.tmp.1218.1765708691918
+2025-12-14T10:38:11.919Z [DEBUG] Temp file written successfully, size: 2401 bytes
+2025-12-14T10:38:11.919Z [DEBUG] Renaming /app/IMPLEMENTATION_SUMMARY.md.tmp.1218.1765708691918 to /app/IMPLEMENTATION_SUMMARY.md
+2025-12-14T10:38:11.919Z [DEBUG] File /app/IMPLEMENTATION_SUMMARY.md written atomically
+2025-12-14T10:38:11.922Z [DEBUG] Getting matching hook commands for PostToolUse with query: Write
+2025-12-14T10:38:11.922Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:38:11.922Z [DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+2025-12-14T10:38:11.928Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:38:11.928Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:38:11.928Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:38:11.928Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:38:18.740Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:38:22.934Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-14T10:38:22.937Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-14T10:38:22.937Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:38:22.937Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:38:25.984Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-14T10:38:25.984Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:38:25.984Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-12-14T10:38:26.000Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-14T10:38:26.000Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-14T10:38:26.000Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-14T10:38:26.000Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-14T10:38:26.819Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:38:32.465Z [DEBUG] Stream started - received first chunk
+2025-12-14T10:38:38.851Z [DEBUG] Getting matching hook commands for Stop with query: undefined
+2025-12-14T10:38:38.851Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:38:38.851Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-12-14T10:38:38.857Z [DEBUG] Getting matching hook commands for SessionEnd with query: other
+2025-12-14T10:38:38.857Z [DEBUG] Found 0 hook matchers in settings
+2025-12-14T10:38:38.857Z [DEBUG] Matched 0 unique hooks for query "other" (0 before deduplication)

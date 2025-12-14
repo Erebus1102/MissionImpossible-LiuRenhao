@@ -1,0 +1,29 @@
+{
+    "id": "9c76a605-f70b-473c-82e6-bc064fbf3ceb",
+    "started_at": "2025-12-14T18:21:47.884665",
+    "finished_at": "2025-12-14T18:38:41.018698",
+    "n_total_trials": 1,
+    "stats": {
+        "n_trials": 1,
+        "n_errors": 0,
+        "evals": {
+            "claude-code__claude-opus-4-1__adhoc": {
+                "n_trials": 1,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 0.75
+                    }
+                ],
+                "reward_stats": {
+                    "reward": {
+                        "0.75": [
+                            "MissionImpossible__TziEXCG"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        }
+    }
+}

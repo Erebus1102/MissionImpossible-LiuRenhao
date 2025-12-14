@@ -1,0 +1,27 @@
+......F.                                                                 [100%]
+=================================== FAILURES ===================================
+____________ test_double_star_in_middle_allows_skipping_directories ____________
+
+    def test_double_star_in_middle_allows_skipping_directories():
+        """`a/**/b?.txt` 应匹配 a 下任意层级的 b<单字符>.txt（包括 0 层）。"""
+        gi = GitIgnore.from_text("a/**/b?.txt\n")
+>       assert gi.ignored("a/b1.txt") is True  # ** matches 0 dirs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       AssertionError: assert False is True
+E        +  where False = ignored('a/b1.txt')
+E        +    where ignored = <mi_gitignore.gitignore.GitIgnore object at 0xffff932e57f0>.ignored
+
+/tests/test_gitignore.py:130: AssertionError
+=============================== warnings summary ===============================
+../tests/test_gitignore.py:1
+  /tests/test_gitignore.py:1: SyntaxWarning: invalid escape sequence '\!'
+    """
+
+../tests/test_gitignore.py:139
+  /tests/test_gitignore.py:139: SyntaxWarning: invalid escape sequence '\!'
+    """转义：`\!` 与 `\#` 分别表示字面量 `!` 与 `#`，而不是否定规则/注释行。
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED ../tests/test_gitignore.py::test_double_star_in_middle_allows_skipping_directories
+1 failed, 7 passed, 2 warnings in 0.01s

@@ -1,0 +1,57 @@
+.F.F....                                                                 [100%]
+=================================== FAILURES ===================================
+_____________ test_slash_pattern_without_anchor_matches_any_depth ______________
+
+    def test_slash_pattern_without_anchor_matches_any_depth():
+        """带 `/` 但不以 `/` 开头的 pattern 应能在任意层级匹配（等价于隐式 `**/` 前缀）。
+    
+        例如 `docs/*.md` 应匹配：
+        - `docs/a.md`
+        - `a/b/docs/a.md`
+        但不应匹配：
+        - `docs/a/b.md`（因为 `*` 不跨目录）
+        """
+        gi = GitIgnore.from_text("docs/*.md\n")
+        assert gi.ignored("docs/a.md") is True
+        assert gi.ignored("a/b/docs/a.md") is True
+>       assert gi.ignored("docs/a/b.md") is False
+E       AssertionError: assert True is False
+E        +  where True = ignored('docs/a/b.md')
+E        +    where ignored = <mi_gitignore.gitignore.GitIgnore object at 0xffffa123b620>.ignored
+
+/tests/test_gitignore.py:58: AssertionError
+______________ test_unignore_requires_unignoring_parent_directory ______________
+
+    def test_unignore_requires_unignoring_parent_directory():
+        """更贴近真实 git：如果目录被忽略，单独 `!dir/file` 不能让文件重新生效；需要先 `!dir/`。
+    
+        这点非常容易写错，也是区分实现质量的关键。
+        """
+        gi = GitIgnore.from_text(
+            """
+            build/
+            !build/keep.log
+            """
+        )
+        assert gi.ignored("build", is_dir=True) is True
+        # 目录 build 被忽略，单独 unignore 文件在真实 git 中不生效
+>       assert gi.ignored("build/keep.log", is_dir=False) is True
+E       AssertionError: assert False is True
+E        +  where False = ignored('build/keep.log', is_dir=False)
+E        +    where ignored = <mi_gitignore.gitignore.GitIgnore object at 0xffffa123b680>.ignored
+
+/tests/test_gitignore.py:87: AssertionError
+=============================== warnings summary ===============================
+../tests/test_gitignore.py:1
+  /tests/test_gitignore.py:1: SyntaxWarning: invalid escape sequence '\!'
+    """
+
+../tests/test_gitignore.py:139
+  /tests/test_gitignore.py:139: SyntaxWarning: invalid escape sequence '\!'
+    """转义：`\!` 与 `\#` 分别表示字面量 `!` 与 `#`，而不是否定规则/注释行。
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED ../tests/test_gitignore.py::test_slash_pattern_without_anchor_matches_any_depth
+FAILED ../tests/test_gitignore.py::test_unignore_requires_unignoring_parent_directory
+2 failed, 6 passed, 2 warnings in 0.02s
